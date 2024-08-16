@@ -34,12 +34,12 @@ const Razorpay = (amount) => {
           resolve(response.razorpay_payment_id); // Resolve the promise with the response
         },
         prefill: {
-          name: "Suraj Kanbarkar",
-          email: "youremail@example.com",
-          contact: "9999999999",
+          name: "",
+          email: "",
+          contact: "",
         },
         notes: {
-          address: "IET Pune",
+          address: "",
         },
         theme: {
           color: "#F37254",
