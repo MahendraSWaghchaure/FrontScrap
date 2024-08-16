@@ -26,7 +26,7 @@ const Razorpay = (amount) => {
         key: RAZORPAY_KEY_ID,
         amount: amount * 100,
         currency: "INR",
-        name: "Your Company Name",
+        name: "ScrapSavvy",
         description: "Test Transaction",
         image: "https://your-logo-url.com/logo.png",
         handler: function (response) {
