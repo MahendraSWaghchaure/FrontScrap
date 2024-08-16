@@ -25,7 +25,7 @@ const PaymentsMadeTable = () => {
       transactionId: `TXN${transactionId++}`,
       receivedFrom: "Customer B",
       paymentMode: "Debit Card",
-      status: "Pending",
+      status: "Paid",
       paidOn: formattedDate,
       invoice: "INV-002",
     },
